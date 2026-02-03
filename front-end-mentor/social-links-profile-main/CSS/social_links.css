@@ -1,0 +1,113 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.profile_box {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 50%;
+
+
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    font-size: x-large;
+    text-transform: capitalize;
+    padding-top: 20px;
+
+}
+
+.place {
+    color: hsl(75, 94%, 57%);
+    padding-top: 5px;
+}
+
+.career {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+
+}
+
+.links {
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    text-align: Center;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+.links:hover{
+    cursor:pointer;
+    background-color:hsl(75, 94%, 57%);
+}
+/* mobile */
+@media(min-width:344px)
+{
+    .profile_box{
+        padding:10px;    
+        
+    }
+    .links{
+        width:80%;
+    }
+
+
+}
+
+/* tablet */
+@media(min-width:768px){
+    .profile_box{
+        width:80%;
+        padding:50px;
+    }
+    .links{
+        width:100%;
+    }
+}
+
+/* pc */
+@media(min-width:1024px){
+    .profile_box{
+        width:30%;
+        padding:20px;
+       
+    }
+    .links{
+        width:80%;
+    }
+}

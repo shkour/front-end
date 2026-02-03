@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card {
+
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.card h2 {
+    font-weight: lighter;
+    padding-top: 35px;
+}
+
+h2,
+button {
+    text-transform: capitalize;
+}
+
+button,
+li div,
+.card .footer-text h1,
+.content h2 {
+    font-weight: bold;
+}
+
+.card h2,
+.footer-text p,
+.circle p {
+    color: hsl(241, 100%, 89%);
+
+}
+
+.card .footer-text {
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .footer-text h1 {
+    padding: 10px;
+    color: white;
+
+
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0))
+}
+
+.circle h1 {
+    font-size: 70px;
+    color: white;
+    display: inline;
+
+}
+
+.card2 {
+
+    background-color: white;
+    padding-right: 50px;
+
+
+}
+
+.content {
+    padding-left: 40px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.content h2 {
+    padding-right: 180px;
+
+    color: hsl(224, 30%, 27%);
+}
+
+.card,
+.card2 {
+    width: 350px;
+    height: 55%;
+    border-radius: 25px;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+li {
+    list-style: none;
+    width: 257px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+li span {
+    padding-left: 90px;
+    font-weight: bolder;
+    color: black;
+}
+
+li div img {
+    display: inline;
+    margin-top: 2px;
+}
+
+li div {
+    width: fit-content;
+    display: inline;
+
+}
+
+li:nth-child(1) {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 97%);
+}
+
+li:nth-child(2) {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 95%)
+}
+
+li:nth-child(3) {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 95%)
+}
+
+li:nth-child(4) {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 95%);
+}
+
+
+button {
+    width: 250px;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: large;
+}
+
+button:hover {
+    transition: ease-out 0.2s;
+    transform: scaleY(1.2);
+    background-color: hsl(241, 81%, 54%);
+}
+
+@media(max-width:376px) {
+    body {
+        flex-direction: column;
+
+    }
+
+    .card {
+        width: 98%;
+
+    }
+
+    .card h2 {
+        margin-top: 20px;
+    }
+
+
+    .card .circle {
+        width: 130px;
+        padding-bottom: 20px;
+
+    }
+
+    .circle h1 {
+        padding-top: 10px;
+    }
+
+    .card2 {
+        width: fit-content;
+        height: fit-content;
+
+    }
+
+    .card2 ul {
+        gap: 15px;
+    }
+
+    .card ul li{
+        width:100%;
+    }
+    button {
+        width: 100%;
+    }
+
+}

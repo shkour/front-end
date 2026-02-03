@@ -1,0 +1,96 @@
+/*
+    not good att all
+ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:khaki;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    
+
+}
+form{
+    width:90%;
+    max-width: 450px;
+    height:50%;
+    background-color:rgba(165, 42, 42, 0.863);
+    border-radius:5%;
+    align-content: center;
+ 
+  
+
+}
+ form input{
+    width: 95%;
+    margin-left: 10px;
+    padding:10px;
+    align-content: center;
+    margin-bottom:10px;
+    border-radius: 33px;
+    border: none;
+  
+ 
+ 
+  
+}
+form h1{
+    text-align: center;
+   margin-bottom: 66px;
+   
+}
+form button[type="submit"]{
+    width:120px;
+    height:33px;
+    border-radius: 33px;
+    border:none;
+    margin-left:calc(90% - 55%);
+    margin-top: 60px;
+
+
+}
+form label{
+text-transform: capitalize;
+margin-left:5px;
+font-weight: bold;
+
+
+}
+button[type="submit"]:hover{
+    background-color: rgba(204, 179, 179, 0.79);
+    transform:scale(1.2);
+   transition-duration: 0.3s;
+   transition-timing-function: ease-out;
+
+}
+input:hover{
+    background-color: rgba(204, 179, 179, 0.79);
+        transform: scaleY(1.1);
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+}
+
+input[type="checkbox"] {
+    width: fit-content;
+    position: relative;
+    left:calc(90% - 88%);
+  
+}
+label[for="checkbox"] {
+    width: fit-content;
+    font-size: xx-small;
+    position: relative;
+    left:calc(90% - 86%);
+    bottom:3.1px
+
+   
+
+}

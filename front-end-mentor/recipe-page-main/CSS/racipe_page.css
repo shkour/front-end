@@ -1,0 +1,121 @@
+body {
+    background-color: peachpuff;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    height: 200%;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    padding: 70px 30px;
+    border-radius: 20px;
+
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    width: 200%;
+    height: 200px;
+    margin-top: -40px;
+    border-radius: 10px;
+
+}
+
+header h1 {
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: lighter;
+    opacity: 0.7;
+
+}
+
+.Preparation_Time {
+    width: 100%;
+    ;
+    background-color: rgba(255, 192, 203, 0.3);
+    padding-bottom: 10px;
+
+
+
+}
+
+.Preparation_Time h4 {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: hsl(332, 51%, 32%)
+}
+
+li {
+    margin-top: 20px;
+    font-size: small;
+    padding-left: 10px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+span {
+    font-weight: bold;
+    color: hsl(24, 5%, 18%)
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 500px;
+}
+
+tr,
+.g {
+
+    border: solid gray 1px;
+    color: hsl(24, 5%, 18%);
+
+
+}
+
+td {
+    padding-left: 15px;
+    text-align: start;
+
+}
+
+.b {
+    font-weight: bolder;
+}
+
+.b,
+h2 {
+    color: hsl(14, 45%, 36%)
+}
+
+@media (max-width:600px) {
+    body {
+        height: 300%;
+
+
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    table {
+        width: 70%;
+
+    }
+
+}

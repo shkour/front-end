@@ -1,0 +1,97 @@
+/*
+    not good
+ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     background-color:rgba(2, 0, 0, 0.873);
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     height:100vh;
+     color: whitesmoke;
+}
+form{
+    width:100%;
+    max-width:400px;
+    height:60%;
+    align-content:center;
+    border-radius:40px;
+    opacity: 0.777;
+    box-shadow: 3px 3px 20px blueviolet ,-3px -3px 50px crimson, 3px 3px 10px blueviolet inset, -3px -3px 10px crimson inset;
+}
+form input{
+   width:92%;
+   margin:10px 19px;
+   padding:10px;
+   border-radius:10px;
+   border-top-color: blueviolet;
+   border-bottom-color: crimson;
+   
+}
+form label{
+    display:block;
+    font-size:20px;
+    margin-left:23px;
+
+}
+form button[type="submit"]{
+    width:12em;
+    padding:5px;
+    border-radius: 10px;
+    position:relative;
+    top:15%;
+    left:29%;
+    color:whitesmoke;
+  
+
+
+}
+form h1{
+    margin-bottom:50px;
+    text-align: center;
+ }
+button[type="submit"]:hover{
+    overflow: hidden;
+    background-color: #1f1d1d30;    
+    transform:scaleX(1.1);
+    transition: ease-in;
+    transition-duration: 0.2s;
+    border-top-color: blueviolet;
+    border-bottom-color: crimson;
+    color:black
+}
+input:hover{
+    background-color: #1f1d1d30;
+        transform: scaleX(1.05);
+        transition: ease-in;
+        transition-duration: 0.2s;
+        border-top-color: blueviolet;
+        border-bottom-color: crimson;
+        color: black
+}
+input[type="checkbox"]{
+      width:fit-content;
+        position: relative;
+        top:20px;
+        left:calc(100% - 15%);
+}
+label[for="checkbox"]{
+    font-size:xx-small;
+    position: relative;
+    top: 40px;
+    left: calc(100% - 34%);
+   
+}
+input,button,form{
+ background-color: #f9f9f930;
+}
+label,h1,button[type="submit"]{
+    text-transform: capitalize;
+}
